@@ -54,7 +54,7 @@ public class Main {
                 System.out.println("You did not enter a valid number, please try again");
             }
         } catch (Exception e) {
-            throw new InputMismatchException("asdf");
+            throw new InputMismatchException();
         }
 
     }
